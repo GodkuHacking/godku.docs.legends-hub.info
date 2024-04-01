@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Godku Project</title>
+    <link rel="icon" href="assets/favicon.ico" type="image/x-icon">
+    <style>
+        body {
+            background-color: #1a1a1a;
+            color: #ffffff;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            max-width: 960px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 40px;
+        }
+
+        .header h1 {
+            font-size: 36px;
+            margin: 0;
+            text-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+        }
+
+        .header a {
+            background-color: #7289da;
+            color: #ffffff;
+            text-decoration: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+
+        .header a:hover {
+            background-color: #677bc4;
+        }
+
+        .content {
+            background-color: #2c2c2c;
+            padding: 40px;
+            border-radius: 10px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+        }
+
+        .content h2 {
+            font-size: 24px;
+            margin-top: 0;
+            text-shadow: 0 0 10px rgba(255, 255, 255, 0.3);
+        }
+
+        .content .markdown {
+            border: 1px solid #4d4d4d;
+            padding: 20px;
+            border-radius: 5px;
+            background-color: #1a1a1a;
+            margin-bottom: 20px;
+        }
+
+        .rainbow-bar {
+            height: 10px;
+            background: linear-gradient(90deg, #ff0000, #ff7f00, #ffff00, #00ff00, #0000ff, #8b00ff, #ff0000);
+            background-size: 800% 800%;
+            animation: rainbowAnimation 10s ease infinite;
+            border-radius: 5px;
+            margin-bottom: 20px;
+        }
+
+        @keyframes rainbowAnimation {
+            0% {
+                background-position: 0% 50%;
+            }
+
+            50% {
+                background-position: 100% 50%;
+            }
+
+            100% {
+                background-position: 0% 50%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Godku Project</h1>
+            <a href="https://discord.gg/8RC6aFdHx8" target="_blank">Join Discord</a>
+        </div>
+        <div class="rainbow-bar"></div>
+        <div class="content">
+            <h2>Welcome to the Godku Project!</h2>
+            <div class="markdown">
+                <p>This is a community for modding games. We create mod APKs, GG scripts, bots to mod files, and more...</p>
+            </div>
+            <h2>Features</h2>
+            <div class="markdown">
+                <p>Mod APK (download in the discord server)</p>
+                <p>Scripts for GG</p>
+                <p>Modding bots</p>
+            </div>
+            <h2>Getting Started</h2>
+            <div class="markdown">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Requirement</th>
+                            <th>Details</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Android Version</td>
+                            <td>Android 10 or higher</td>
+                        </tr>
+                        <tr>
+                            <td>Root Access</td>
+                            <td>Root or No Root, doesn't matter</td>
+                        </tr>
+                        <tr>
+                            <td>Server Access</td>
+                            <td>Must be in the server</td>
+                        </tr>
+                        <tr>
+                            <td>Verification</td>
+                            <td>Must be verified</td>
+                        </tr>
+                        <tr>
+                            <td>APK Download</td>
+                            <td>The APK must be downloaded</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <h2>Godku Commands</h2>
+            <div class="markdown">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Command</th>
+                            <th>Description</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>!invert</td>
+                            <td>Use this command to manually edit the file.</td>
+                        </tr>
+                        <tr>
+                            <td>!14stars</td>
+                            <td>Make all your characters 14 stars.</td>
+                        </tr>
+                        <tr>
+                            <td>!Zenkai</td>
+                            <td>Make all zenkai characters zenkai 7.</td>
+                        </tr>
+                        <tr>
+                            <td>!Soulboost</td>
+                            <td>Max the soulboost of all your characters.</td>
+                        </tr>
+                        <tr>
+                            <td>!Artboost</td>
+                            <td>Max the art boost to 99 for all the characters.</td>
+                        </tr>
+                        <tr>
+                            <td>!Costume</td>
+                            <td>Give you the alternate color of all the characters.</td>
+                        </tr>
+                        <tr>
+                            <td>!Equip</td>
+                            <td>Choose between absurd equipment power or maxed equipment with official stats (Second
+                                option is in work in progress).</td>
+                        </tr>
+                        <tr>
+                            <td>!Level</td>
+                            <td>Change the level of all the characters (Only in friendly battle).</td>
+                        </tr>
+                        <tr>
+                            <td>!14,7</td>
+                            <td>Make the commands !14stars and !Zenkai at the same time.</td>
+                        </tr>
+                        <tr>
+                            <td>!AllBoost</td>
+                            <td>Make the commands !Soulboost and !Artboost at the same time.</td>
+                        </tr>
+                        <tr>
+                            <td>!Allmods</td>
+                            <td>Make the commands !14,7 and !Allboost at the same time.</td>
+                        </tr>
+                        <tr>
+                            <td>!Ultimate</td>
+                            <td>Make the commands !Allmods and !Costume at the same time.</td>
+                        </tr>
+                        <tr>
+                            <td>!Visual</td>
+                            <td>Give you all the characters in the game (WARNING: Like the command name said it's only
+                                visual you are not able to play the given character!).</td>
+                        </tr>
+                        <tr>
+                            <td>!Team</td>
+                            <td>Edit your team through the file (Pair it with !Visual).</td>
+                        </tr>
+                        <tr>
+                            <td>!Clone</td>
+                            <td>Put a wanted character in a team 6 times.</td>
+                        </tr>
+                        <tr>
+                            <td>!Shallot</td>
+                            <td>Edit shallot costume, special move or transformation even if you don't have them.
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>!!background</td>
+                            <td>Changes the background of your game.</td>
+                        </tr>
+                        <tr>
+                            <td>!Skip_tuto</td>
+                            <td>Skip the king kai tutorial on a new account.</td>
+                        </tr>
+                        <tr>
+                            <td>!Infinite_CC</td>
+                            <td>Give you infinite CC trust.</td>
+                        </tr>
+                        <tr>
+                            <td>!Sleeve</td>
+                            <td>Let you change the art sleeve (Id can be found on the 98c4 channel in the server or with
+                                the !Ids command).</td>
+                        </tr>
+                        <tr>
+                            <td>!Ids</td>
+                            <td>Print the ids of all the sleeve.</td>
+                        </tr>
+                        <tr>
+                            <td>!Apk</td>
+                            <td>Use this command to get the link to the different godku mod APK.</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
